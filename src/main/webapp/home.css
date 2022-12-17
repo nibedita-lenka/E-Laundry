@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abhaya Libre', serif;
+}
+
+
+.mainHome{
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+}
+.mainHome h1{
+    text-align: center;
+}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content table{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+thead{
+    border: 2px solid black;
+}
+.content table, th, td {
+    border-right: 1px solid;
+    border-left: 1px solid;
+    text-align: center;
+}
+.content thead{
+    font-size: 22px;
+}
+.content tbody{
+    font-size: 20px;
+}
+.content tr{
+    height: 40px;
+}
+.content tr a{
+    text-decoration: none;
+}
+.content tr:nth-child(even) {
+    background-color: lightblue;
+}
